@@ -29,7 +29,7 @@ RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(5,5)                                 
 left_encoder: left_encoder {
         compatible = "alps,ec11";
         steps = <20>;
-        status = "enabled";
+        status = "disabled";
 
         a-gpios = <&pro_micro 1 GPIO_PULL_UP>;
         b-gpios = <&pro_micro 0 GPIO_PULL_UP>;
@@ -38,7 +38,7 @@ left_encoder: left_encoder {
     right_encoder: right_encoder {
         compatible = "alps,ec11";
         steps = <20>;
-        status = "enabled";
+        status = "disabled";
 
         a-gpios = <&pro_micro 1 GPIO_PULL_UP>;
         b-gpios = <&pro_micro 0 GPIO_PULL_UP>;
