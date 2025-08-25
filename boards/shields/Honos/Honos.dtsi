@@ -1,9 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
- {
+/ {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
+        
     };
 
     default_transform: keymap_transform_0 {
@@ -26,7 +26,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6)                         
 RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(5,5)                                                           RC(5,10) RC(5,11) RC(5,12)
         >;
     };
-left_encoder: left_encoder {
+    left_encoder: left_encoder {
         compatible = "alps,ec11";
         steps = <20>;
         status = "disabled";
@@ -43,7 +43,7 @@ left_encoder: left_encoder {
         a-gpios = <&pro_micro 1 GPIO_PULL_UP>;
         b-gpios = <&pro_micro 0 GPIO_PULL_UP>;
     };
- sensors: sensors {
+    sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder &right_encoder>;
         triggers-per-rotation = <20>;
