@@ -15,12 +15,12 @@
                 default_layer {
 
                         bindings = <
-                        &trans   &kp ESC  &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC  &kp F3 &kp  F4  &kp F5  &kp F6  &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp INSERT  &kp DEL &trans
-                        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+                        &trans   &kp ESC  &kp F1 &kp F2  &kp F3 &kp  F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp INSERT  &kp DEL &trans
+                        &trans &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp BACKSPACE &kp PG_UP
+                        &trans &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH &kp PG_DN
+                        &trans &kp CAPSLOCK &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMICOLON &kp APOSTROPHE &kp RETURN &kp HOME
+                        &trans &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp PERIOD &kp SLASH &kp RIGHT_SHIFT &kp UP_ARROW
+                        &trans &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_COMMAND &kp GLOBE &kp SPACE &kp SPACE &kp RIGHT_COMMAND &kp GLOBE &kp RIGHT_CONTROL &kp LEFT &kp DOWN &kp RIGHT 
                         >;
                 };
                 
